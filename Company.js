@@ -2,7 +2,7 @@ const { faker } =  require('@faker-js/faker');
 
 const  Company = () => {
     const newCompany =  {
-        id : faker.datatype.number(),
+        _id : faker.datatype.number(),
         name :faker.company.name(),
         address :{
             street : faker.address.streetAddress(),

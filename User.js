@@ -8,7 +8,7 @@ const User= () => {
         phoneNumber : faker.phone.number(),
         lastName : faker.name.lastName(),
         firstName : faker.name.firstName(),
-        id : faker.datatype.number()
+        _id : faker.datatype.number()
     };
     return newUser;
 };
